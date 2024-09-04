@@ -123,7 +123,6 @@ The implementation of our data pipeline management system using Apache Spark and
 
 This project demonstrates the power of combining Apache Spark's distributed computing capabilities with Talend's intuitive data integration platform. By leveraging these technologies, we were able to create a robust, scalable, and efficient data pipeline management system that significantly improved our organization's data processing capabilities. The success of this project has set a new standard for data engineering within our company and paved the way for more advanced analytics and machine learning initiatives.
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <canvas id="performance-chart"></canvas>

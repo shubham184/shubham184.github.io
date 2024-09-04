@@ -85,95 +85,43 @@
   "skills": [
     {
       "name": "Data Architecture",
-      "keywords": [
-        "Data Integration Strategies",
-        "Operational Data Modeling",
-        "Data Governance Frameworks"
-      ]
+      "keywords": ["Data Integration Strategies", "Operational Data Modeling", "Data Governance Frameworks"]
     },
     {
       "name": "Modern Software Architectures",
-      "keywords": [
-        "Microservices",
-        "Event-Driven Architecture",
-        "API-First Design"
-      ]
+      "keywords": ["Microservices", "Event-Driven Architecture", "API-First Design"]
     },
     {
       "name": "Data Integration & ETL",
-      "keywords": [
-        "Apache Kafka",
-        "Databricks",
-        "Talend",
-        "Apache Airflow",
-        "SQL Server Integration Services (SSIS)"
-      ]
+      "keywords": ["Apache Kafka", "Databricks", "Talend", "Apache Airflow", "SQL Server Integration Services (SSIS)"]
     },
     {
       "name": "Cloud Platforms & Services",
-      "keywords": [
-        "Azure (Synapse, Data Factory)",
-        "AWS (Redshift, Glue)",
-        "Google Cloud (BigQuery, Dataflow)"
-      ]
+      "keywords": ["Azure (Synapse, Data Factory)", "AWS (Redshift, Glue)", "Google Cloud (BigQuery, Dataflow)"]
     },
     {
       "name": "Data Warehousing & Lakes",
-      "keywords": [
-        "Snowflake",
-        "Azure Synapse",
-        "Amazon Redshift",
-        "Google BigQuery",
-        "Delta Lake"
-      ]
+      "keywords": ["Snowflake", "Azure Synapse", "Amazon Redshift", "Google BigQuery", "Delta Lake"]
     },
     {
       "name": "Database Systems",
-      "keywords": [
-        "SQL Server",
-        "Oracle",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB",
-        "Cassandra"
-      ]
+      "keywords": ["SQL Server", "Oracle", "PostgreSQL", "MySQL", "MongoDB", "Cassandra"]
     },
     {
       "name": "Business Intelligence & Visualization",
-      "keywords": [
-        "Power BI",
-        "Tableau",
-        "Qlik Sense"
-      ]
+      "keywords": ["Power BI", "Tableau", "Qlik Sense"]
     },
     {
       "name": "Programming & Scripting",
-      "keywords": [
-        "Python",
-        "PySpark",
-        "SQL",
-        "R"
-      ]
+      "keywords": ["Python", "PySpark", "SQL", "R"]
     },
     {
       "name": "DevOps & Agile Methodologies",
-      "keywords": [
-        "GitLab",
-        "Azure DevOps",
-        "Jenkins",
-        "Kubernetes",
-        "Scrum"
-      ]
+      "keywords": ["GitLab", "Azure DevOps", "Jenkins", "Kubernetes", "Scrum"]
     },
     {
       "name": "Data Governance & Security",
-      "keywords": [
-        "Collibra",
-        "Informatica",
-        "GDPR compliance",
-        "Data Encryption",
-        "Access Control"
-      ]
+      "keywords": ["Collibra", "Informatica", "GDPR compliance", "Data Encryption", "Access Control"]
     }
   ],
   "languages": [

@@ -8,7 +8,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign latest_projects = site.projects | sort: "date" | reverse %}
+        {% assign latest_projects = site.projects | sort: 'date' | reverse %}
         {% if site.latest_projects.limit %}
           {% assign latest_projects_limit = site.latest_projects.limit %}
         {% else %}
