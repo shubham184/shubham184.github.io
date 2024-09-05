@@ -1,0 +1,96 @@
+.skills-accordion {
+  margin-top: 1rem;
+  font-family: var(--global-font-family);
+
+  .accordion-item {
+    border: 1px solid var(--global-divider-color);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-accordion {
+    background-color: var(--global-bg-color);
+  }
+
+  .sub-accordion {
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .accordion-header {
+    background-color: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: var(--global-hover-color);
+      color: var(--global-hover-text-color);
+    }
+
+    i {
+      margin-right: 10px;
+      font-size: 1.1em;
+    }
+
+    &:after {
+      content: "\002B";
+      color: var(--global-text-color-light);
+      font-weight: bold;
+      float: right;
+      margin-left: auto;
+    }
+
+    &.active:after {
+      content: "\2212";
+    }
+  }
+
+  .main-header {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .sub-header {
+    background-color: var(--global-card-bg-color);
+    font-weight: 500;
+  }
+
+  .accordion-content {
+    padding: 0 18px;
+    background-color: var(--global-bg-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .main-content {
+    background-color: var(--global-bg-color);
+  }
+
+  .sub-content {
+    background-color: var(--global-bg-color);
+  }
+
+  .progress-bar {
+    background-color: var(--global-divider-color);
+    height: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+
+    .progress {
+      background-color: var(--global-theme-color);
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.5s ease-out;
+    }
+  }
+}

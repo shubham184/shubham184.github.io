@@ -44,20 +44,7 @@ Our Snowflake data warehouse architecture is designed to provide a scalable, fle
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="mermaid">
-        graph TD
-            A[Data Sources] -->|Ingestion| B(Snowflake Data Ingestion)
-            B -->|Raw Data| C[Raw Data Layer]
-            C -->|Transform| D[Transformation Layer]
-            D -->|Curate| E[Curated Data Layer]
-            E -->|Semantic| F[Semantic Layer]
-            F -->|BI Integration| G[BI Tools]
-            H[Security & Governance] --> B
-            H --> C
-            H --> D
-            H --> E
-            H --> F
-        </div>
+        <div id="architecture-diagram"></div>
     </div>
 </div>
 <div class="caption">
@@ -104,19 +91,36 @@ The implementation of our Snowflake data warehouse solution has delivered signif
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="{{ '/assets/js/snowflake-project/chart.js' | relative_url }}"></script>
-
 ## Conclusion
 
 This project demonstrates the power of Snowflake's cloud-native data warehousing solution in addressing the challenges of modern data analytics. By leveraging Snowflake's unique architecture and features, we were able to create a scalable, high-performance, and cost-effective data analytics environment. The success of this project has significantly improved our organization's ability to derive timely insights from our data, setting a new standard for data-driven decision-making within our company.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <canvas id="performance-chart"></canvas>
-    </div>
-</div>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="{{ '/assets/js/snowflake-project/chart.js' | relative_url }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.13.10/mermaid.min.js"></script>
+<script>
+mermaid.initialize({ startOnLoad: true });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var diagram = `
+    graph TD
+            A[Data Sources] -->|Ingestion| B(Snowflake Data Ingestion)
+            B -->|Raw Data| C[Raw Data Layer]
+            C -->|Transform| D[Transformation Layer]
+            D -->|Curate| E[Curated Data Layer]
+            E -->|Semantic| F[Semantic Layer]
+            F -->|BI Integration| G[BI Tools]
+            H[Security & Governance] --> B
+            H --> C
+            H --> D
+            H --> E
+            H --> F
+    `;
+    
+    var insertSvg = function(svgCode, bindFunctions) {
+        document.getElementById("architecture-diagram").innerHTML = svgCode;
+    };
+    
+    mermaid.render("mermaid-diagram", diagram, insertSvg);
+});
+</script>

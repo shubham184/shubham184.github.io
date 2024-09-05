@@ -44,21 +44,7 @@ Our data pipeline architecture is designed to provide a scalable, flexible, and 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="mermaid">
-        graph TD
-            A[Data Sources] -->|Ingestion| B(Talend Data Integration)
-            B -->|Validation| C{Data Quality Check}
-            C -->|Pass| D[Apache Spark Processing]
-            C -->|Fail| E[Error Handling]
-            D -->|Transformation| F[Spark SQL & DataFrames]
-            D -->|Cleaning| G[MLlib & Custom UDFs]
-            F --> H[Processed Data]
-            G --> H
-            H -->|Output| I[Data Warehouse]
-            H -->|Output| J[Analytics Platforms]
-            K[Monitoring & Logging] --> B
-            K --> D
-        </div>
+        <div id="architecture-diagram"></div>
     </div>
 </div>
 <div class="caption">
@@ -104,30 +90,41 @@ The implementation of our data pipeline management system using Apache Spark and
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div id="architecture-diagram"></div>
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         <canvas id="performance-chart"></canvas>
     </div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.13.10/mermaid.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="{{ '/assets/js/data-pipeline-management/diagram.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/data-pipeline-management/chart.js' | relative_url }}"></script>
 
 ## Conclusion
 
 This project demonstrates the power of combining Apache Spark's distributed computing capabilities with Talend's intuitive data integration platform. By leveraging these technologies, we were able to create a robust, scalable, and efficient data pipeline management system that significantly improved our organization's data processing capabilities. The success of this project has set a new standard for data engineering within our company and paved the way for more advanced analytics and machine learning initiatives.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <canvas id="performance-chart"></canvas>
-    </div>
-</div>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="{{ '/assets/js/data-pipeline-management/chart.js' | relative_url }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.13.10/mermaid.min.js"></script>
+<script>
+mermaid.initialize({ startOnLoad: true });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var diagram = `
+    graph TD
+            A[Data Sources] -->|Ingestion| B(Talend Data Integration)
+            B -->|Validation| C{Data Quality Check}
+            C -->|Pass| D[Apache Spark Processing]
+            C -->|Fail| E[Error Handling]
+            D -->|Transformation| F[Spark SQL & DataFrames]
+            D -->|Cleaning| G[MLlib & Custom UDFs]
+            F --> H[Processed Data]
+            G --> H
+            H -->|Output| I[Data Warehouse]
+            H -->|Output| J[Analytics Platforms]
+            K[Monitoring & Logging] --> B
+            K --> D
+    `;
+    
+    var insertSvg = function(svgCode, bindFunctions) {
+        document.getElementById("architecture-diagram").innerHTML = svgCode;
+    };
+    
+    mermaid.render("mermaid-diagram", diagram, insertSvg);
+});
+</script>

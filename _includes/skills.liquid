@@ -1,0 +1,49 @@
+<div class="skills-accordion">
+  <div class="accordion-item main-accordion">
+    <button class="accordion-header main-header"><i class="fas fa-cogs"></i> Skills</button>
+    <div class="accordion-content main-content">
+      {% for skill in site.data.cv %}
+        {% if skill.title == 'Skills' %}
+          {% for item in skill.contents %}
+            <div class="accordion-item sub-accordion">
+              <button class="accordion-header sub-header"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</button>
+              <div class="accordion-content sub-content">
+                <ul>
+                  {% for subitem in item.items %}
+                    <li>
+                      {{ subitem.name }}
+                      <div class="progress-bar">
+                        <div class="progress" style="width: {{ subitem.level }}%;"></div>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var acc = document.getElementsByClassName('accordion-header');
+    for (var i = 0; i < acc.length; i++) {
+      acc[i].addEventListener('click', function () {
+        this.classList.toggle('active');
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+          if (this.classList.contains('main-header')) {
+            var mainContent = this.closest('.main-accordion').querySelector('.main-content');
+            mainContent.style.maxHeight = mainContent.scrollHeight + panel.scrollHeight + 'px';
+          }
+        }
+      });
+    }
+  });
+</script>
