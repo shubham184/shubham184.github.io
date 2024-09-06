@@ -4,7 +4,7 @@ title: Data Pipeline Management with Apache Spark and Talend
 description: Designed and managed data pipelines for data validation, transformation, and cleaning using Apache Spark and Talend, ensuring the highest quality and reliability of data across the organization.
 img: assets/img/data-pipeline-management-teaser.jpg
 importance: 2
-category: work
+category: Data Architecture & Engineering
 ---
 
 ## Project Overview

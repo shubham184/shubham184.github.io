@@ -4,7 +4,7 @@ title: Comprehensive Data Architecture Strategy for Global Supply Chain and Logi
 description: Designed and implemented a comprehensive data architecture strategy for a global supply chain and logistics customer, improving data accessibility by 35% and streamlining reporting processes across their international operations.
 img: assets/img/comprehensive-data-architecture-strategy-teaser.jpg
 importance: 1
-category: work
+category: Data Architecture & Engineering
 ---
 
 ## Project Overview

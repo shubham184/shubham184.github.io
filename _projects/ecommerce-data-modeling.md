@@ -4,7 +4,7 @@ title: Data Modeling for E-commerce - Reducing Redundancy and Improving Customer
 description: A comprehensive overhaul of an e-commerce platform's data model, resulting in 40% reduced data redundancy and 25% improved customer segmentation accuracy.
 img: assets/img/ecommerce-data-model.jpg
 importance: 1
-category: work
+category: Analytics & Data Warehousing
 ---
 
 ## Project Overview

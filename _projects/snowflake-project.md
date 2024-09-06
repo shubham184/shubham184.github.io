@@ -4,7 +4,7 @@ title: Snowflake Data Warehousing Project - Optimizing Analytics for Scale
 description: Implemented a Snowflake data warehouse solution, achieving a 40% reduction in query times and enabling real-time analytics across diverse data sources for a rapidly growing e-commerce company.
 img: assets/img/snowflake-data-warehousing-teaser.jpg
 importance: 1
-category: work
+category: Analytics & Data Warehousing
 ---
 
 ## Project Overview

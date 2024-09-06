@@ -4,7 +4,7 @@ title: Advanced Supply Chain Analytics Platform - Optimizing Global Logistics wi
 description: Developed a cutting-edge supply chain analytics platform integrating real-time IoT data, predictive analytics, and interactive visualizations to optimize global logistics operations.
 img: assets/img/supply-chain-analytics.jpg
 importance: 1
-category: work
+category: Analytics & Data Warehousing
 ---
 
 ## Project Overview

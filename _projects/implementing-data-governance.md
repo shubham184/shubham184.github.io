@@ -2,9 +2,9 @@
 layout: page
 title: Implementing Data Governance - A Journey from Silos to Standardization
 description: Transforming organizational data management through strategic governance initiatives
-img: assets/img/data-governance.jpg
+img: assets/img/data-governance-standards.jpg
 importance: 1
-category: work
+category: Data Governance & Metadata Management
 ---
 
 ## Project Overview

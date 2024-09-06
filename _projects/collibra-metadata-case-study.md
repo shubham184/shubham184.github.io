@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Enhancing Metadata Management Using Collibra's Business Glossary
+title: Enhancing Metadata Management Using Collibra Business Glossary
 description: Implemented a robust metadata management system using Collibra and integrated it with Mega HOPEX for improved data governance and consistency across the organization.
 img: assets/img/collibra-metadata.jpg
 importance: 1
-category: work
+category: Data Governance & Metadata Management
 ---
 
 ## Project Overview

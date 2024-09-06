@@ -4,7 +4,7 @@ title: Data Lake to Data Fabric -  Modernizing Data Architecture for a Multinati
 description: Transitioning from a traditional data lake to a data fabric approach, improving data accessibility, governance, and analytics agility
 img: assets/img/data-fabric.jpg
 importance: 1
-category: work
+category: Data Architecture & Engineering
 ---
 
 ## Project Overview

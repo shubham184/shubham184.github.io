@@ -5,7 +5,14 @@ permalink: /projects/
 description: A growing collection of my data projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories:
+  [
+    Data Integration,
+    Data Governance & Metadata Management,
+    Data Architecture & Engineering,
+    Analytics & Data Warehousing,
+    Messaging & Queuing Systems,
+  ]
 horizontal: false
 ---
 
