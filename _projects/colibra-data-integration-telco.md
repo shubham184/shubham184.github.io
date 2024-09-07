@@ -9,7 +9,7 @@ category: Data Integration
 
 ## Situation
 
-Telenet, a leading telecommunications provider, is facing significant challenges in managing its vast and complex data ecosystem. The company's rapid growth through acquisitions and new service offerings has resulted in a fragmented data landscape that hinders operational efficiency, network performance, and customer satisfaction. Telenet's current ecosystem includes multiple disparate systems:
+BelgiCom, a leading telecommunications provider, is facing significant challenges in managing its vast and complex data ecosystem. The company's rapid growth through acquisitions and new service offerings has resulted in a fragmented data landscape that hinders operational efficiency, network performance, and customer satisfaction. BelgiCom's current ecosystem includes multiple disparate systems:
 
 - **Amdocs** for billing and customer relationship management
 - **Ericsson** for network management and operations
@@ -31,7 +31,7 @@ Key issues include:
 
 5. **Product Catalog Fragmentation**: The rapid introduction of new services (e.g., 5G, IoT offerings, edge computing services) has led to inconsistencies in product information and pricing across systems.
 
-6. **Regulatory Compliance Challenges**: Telenet struggles to quickly compile comprehensive reports for regulatory compliance, especially regarding data privacy, service quality standards, and spectrum usage.
+6. **Regulatory Compliance Challenges**: BelgiCom struggles to quickly compile comprehensive reports for regulatory compliance, especially regarding data privacy, service quality standards, and spectrum usage.
 
 7. **Enterprise Architecture Misalignment**: The enterprise architecture models in LeanIX are not fully aligned with the actual implementation of data structures across operational systems, hindering effective digital transformation initiatives.
 
@@ -39,7 +39,7 @@ Key issues include:
 
 As the lead Enterprise Data Architect, we would be tasked with:
 
-1. **Designing and implementing a centralized metadata management system** to create a single source of truth for Telenet's vast data assets, including network infrastructure, customer data, and service offerings.
+1. **Designing and implementing a centralized metadata management system** to create a single source of truth for BelgiCom's vast data assets, including network infrastructure, customer data, and service offerings.
 
 2. **Standardizing terminology across all systems** to improve cross-departmental communication and ensure consistency in network operations, customer service, and product management.
 
@@ -64,7 +64,7 @@ As the lead Enterprise Data Architect, we would be tasked with:
 
 ## Action
 
-To address Telenet's challenges, we could implement a comprehensive data integration project. Here's a detailed breakdown of our proposed approach:
+To address BelgiCom's challenges, we could implement a comprehensive data integration project. Here's a detailed breakdown of our proposed approach:
 
 1. **Implementing Collibra Data Intelligence Cloud**
 
@@ -105,7 +105,7 @@ To address Telenet's challenges, we could implement a comprehensive data integra
 
 6. **Actionable Metadata and Analytics**
 
-   - We could integrate Collibra with Telenet's Tableau environment for consistent reporting, using the business capability model from LeanIX to organize dashboards
+   - We could integrate Collibra with BelgiCom's Tableau environment for consistent reporting, using the business capability model from LeanIX to organize dashboards
    - We can develop a 'Network Health' API using Collibra's metadata to standardize performance metrics across different network technologies and vendors, with the API design informed by the service-oriented architecture modeled in LeanIX
    - We could implement Collibra's Reference Data Management module to maintain consistent code lists for network elements, service types, and customer segments across all systems, synchronized with the IT component inventory in LeanIX
    - Example: We can create a real-time dashboard that shows end-to-end service performance, correlating data from core network, RAN, and customer experience systems, allowing for proactive issue resolution and capacity planning.
@@ -118,7 +118,7 @@ To address Telenet's challenges, we could implement a comprehensive data integra
 
 ## Result
 
-The implementation of this comprehensive data integration project, with Collibra and LeanIX at its core, could lead to significant improvements for Telenet:
+The implementation of this comprehensive data integration project, with Collibra and LeanIX at its core, could lead to significant improvements for BelgiCom:
 
 1. **Data Consistency**: We could achieve a **90% reduction** in terminology inconsistencies across departments and systems, with enterprise architecture models accurately reflecting the actual data landscape and IT portfolio.
 
@@ -133,31 +133,31 @@ The implementation of this comprehensive data integration project, with Collibra
 
 3. **Enhanced Customer Experience**: The unified data model and 'Network Health' API could allow for proactive service assurance and personalized customer interactions.
 
-   - Example: By correlating network performance data with customer usage patterns, Telenet could proactively reach out to customers likely to experience issues, potentially reducing churn by 10%.
+   - Example: By correlating network performance data with customer usage patterns, BelgiCom could proactively reach out to customers likely to experience issues, potentially reducing churn by 10%.
 
-4. **Improved Decision Making**: With consistent metadata across systems and alignment with enterprise architecture models, Telenet could implement advanced analytics, including:
+4. **Improved Decision Making**: With consistent metadata across systems and alignment with enterprise architecture models, BelgiCom could implement advanced analytics, including:
 
    - Predictive models for network capacity planning and spectrum optimization
    - AI-driven root cause analysis for complex network issues
    - Real-time dashboards for monitoring service quality across different network slices and customer segments
-   - Example: By analyzing historical data on network usage patterns, customer behavior, and external factors (e.g., major events), Telenet could develop a machine learning model that predicts network congestion with 85% accuracy, allowing for dynamic spectrum allocation and load balancing.
+   - Example: By analyzing historical data on network usage patterns, customer behavior, and external factors (e.g., major events), BelgiCom could develop a machine learning model that predicts network congestion with 85% accuracy, allowing for dynamic spectrum allocation and load balancing.
 
-5. **Regulatory Compliance**: The centralized metadata repository in Collibra, combined with the IT component inventory in LeanIX, could improve Telenet's ability to respond to regulatory audits, potentially reducing the time required for compliance reporting by **60%**.
+5. **Regulatory Compliance**: The centralized metadata repository in Collibra, combined with the IT component inventory in LeanIX, could improve BelgiCom's ability to respond to regulatory audits, potentially reducing the time required for compliance reporting by **60%**.
 
-   - Example: During a spectrum usage audit, Telenet could provide a complete view of spectrum allocation across different technologies, geographical areas, and services, including historical changes and future plans, within hours instead of weeks.
+   - Example: During a spectrum usage audit, BelgiCom could provide a complete view of spectrum allocation across different technologies, geographical areas, and services, including historical changes and future plans, within hours instead of weeks.
 
-6. **Cost Savings**: By eliminating data discrepancies, improving operational efficiency, and better aligning IT investments with business capabilities, Telenet could estimate annual savings of **€8 million**.
+6. **Cost Savings**: By eliminating data discrepancies, improving operational efficiency, and better aligning IT investments with business capabilities, BelgiCom could estimate annual savings of **€8 million**.
 
-   - Example: By identifying underutilized network assets and optimizing capacity based on accurate, integrated data, Telenet could reduce network OPEX by 15%.
+   - Example: By identifying underutilized network assets and optimizing capacity based on accurate, integrated data, BelgiCom could reduce network OPEX by 15%.
 
-7. **Scalability**: The standardized data model, integration architecture, and its alignment with the enterprise architecture in LeanIX could position Telenet to more easily integrate future acquisitions and new technologies into their ecosystem.
+7. **Scalability**: The standardized data model, integration architecture, and its alignment with the enterprise architecture in LeanIX could position BelgiCom to more easily integrate future acquisitions and new technologies into their ecosystem.
 
-   - Example: When Telenet decides to implement Open RAN, they could quickly assess the impact on existing systems, data flows, and operational processes, potentially reducing the integration time by 40%.
+   - Example: When BelgiCom decides to implement Open RAN, they could quickly assess the impact on existing systems, data flows, and operational processes, potentially reducing the integration time by 40%.
 
 8. **IT-Business Alignment**: The integration between Collibra and LeanIX could create a shared language between IT, network operations, and business teams, improving collaboration and ensuring that technology investments are directly tied to business outcomes.
    - Example: When the business proposes a new edge computing service, IT and network teams could quickly assess the required infrastructure, data requirements, and potential reuse of existing assets, providing an accurate timeline and budget within days.
 
-This project could not only solve Telenet's immediate data challenges but also position them as a leader in data-driven telecom operations, improving their competitive advantage in the market. The seamless integration between operational data management in Collibra and enterprise architecture in LeanIX could provide a solid foundation for ongoing digital transformation initiatives in the rapidly evolving telecom industry, particularly in the context of 5G and beyond.
+This project could not only solve BelgiCom's immediate data challenges but also position them as a leader in data-driven telecom operations, improving their competitive advantage in the market. The seamless integration between operational data management in Collibra and enterprise architecture in LeanIX could provide a solid foundation for ongoing digital transformation initiatives in the rapidly evolving telecom industry, particularly in the context of 5G and beyond.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

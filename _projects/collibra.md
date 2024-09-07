@@ -248,61 +248,61 @@ In conclusion, Collibra played a pivotal role in transforming GlobalLogistics' d
 
 1. **Network Performance Metadata Management**
 
-   - **Use Case**: Telenet will need to standardize network performance metrics across different technologies (5G, fiber, cable)
+   - **Use Case**: BelgiCom will need to standardize network performance metrics across different technologies (5G, fiber, cable)
    - **Implementation**: Collibra's Business Glossary will be used to create and manage standardized definitions for network performance indicators
    - **Expected Impact**: This will lead to a 40% improvement in cross-team communication efficiency and enable more accurate performance benchmarking across technologies
 
 2. **Customer Data Integration**
 
-   - **Use Case**: Telenet will aim to create a unified view of customer data across multiple systems (CRM, billing, network usage)
+   - **Use Case**: BelgiCom will aim to create a unified view of customer data across multiple systems (CRM, billing, network usage)
    - **Implementation**: Collibra's data lineage capabilities will be leveraged to map and integrate customer data from various sources
    - **Expected Impact**: This will result in a 360-degree customer view, potentially increasing cross-selling opportunities by 25% and improving customer satisfaction scores by 15%
 
 3. **Regulatory Compliance Reporting**
 
-   - **Use Case**: Telenet will need to streamline the process of generating reports for telecom regulatory bodies
+   - **Use Case**: BelgiCom will need to streamline the process of generating reports for telecom regulatory bodies
    - **Implementation**: Collibra's metadata repository and automated workflows will be used to track and compile regulatory-related data
    - **Expected Impact**: This is expected to reduce the time required for regulatory reporting by 50% and decrease compliance-related risks by 30%
 
 4. **Service Level Agreement (SLA) Monitoring**
 
-   - **Use Case**: Telenet will aim to improve monitoring and reporting of SLAs for enterprise customers
+   - **Use Case**: BelgiCom will aim to improve monitoring and reporting of SLAs for enterprise customers
    - **Implementation**: Collibra's data quality rules will be implemented to monitor SLA-related data across operational systems
    - **Expected Impact**: This will likely result in a 35% reduction in SLA violations and a 20% improvement in enterprise customer satisfaction
 
 5. **Network Capacity Planning**
 
-   - **Use Case**: Telenet will seek to enhance its network capacity planning process
+   - **Use Case**: BelgiCom will seek to enhance its network capacity planning process
    - **Implementation**: Collibra's integration capabilities will be used to combine data from network monitoring tools, customer usage patterns, and demographic data
    - **Expected Impact**: This is projected to improve capacity planning accuracy by 30%, potentially reducing unnecessary infrastructure investments by 15%
 
 6. **Product Catalog Management**
 
-   - **Use Case**: Telenet will aim to standardize product definitions across different business units and systems
+   - **Use Case**: BelgiCom will aim to standardize product definitions across different business units and systems
    - **Implementation**: Collibra's Reference Data Management module will be used to maintain a consistent product catalog
    - **Expected Impact**: This is expected to reduce time-to-market for new products by 20% and decrease billing errors related to product misclassification by 40%
 
 7. **Data Privacy Compliance**
 
-   - **Use Case**: Telenet will need to ensure compliance with data privacy regulations (e.g., GDPR) across all systems
+   - **Use Case**: BelgiCom will need to ensure compliance with data privacy regulations (e.g., GDPR) across all systems
    - **Implementation**: Collibra's Policy Manager will be used to create and enforce data privacy policies, with automated data lineage tracking for sensitive information
    - **Expected Impact**: This will likely result in a 60% reduction in data privacy incidents and a 40% decrease in time spent on privacy audits
 
 8. **Network Troubleshooting Knowledge Base**
 
-   - **Use Case**: Telenet will aim to improve the efficiency of network troubleshooting processes
+   - **Use Case**: BelgiCom will aim to improve the efficiency of network troubleshooting processes
    - **Implementation**: Collibra's Business Glossary will be used to create a standardized knowledge base of network issues, their symptoms, and resolution steps
    - **Expected Impact**: This is projected to reduce average troubleshooting time by 25% and improve first-call resolution rates by 30%
 
 9. **Churn Prediction Model Governance**
 
-   - **Use Case**: Telenet will seek to improve the governance and transparency of its customer churn prediction models
+   - **Use Case**: BelgiCom will seek to improve the governance and transparency of its customer churn prediction models
    - **Implementation**: Collibra's data lineage and metadata management capabilities will be used to document model inputs, algorithms, and outputs
    - **Expected Impact**: This will likely lead to a 20% improvement in model accuracy and a 30% increase in the adoption of model insights by business teams
 
 10. **IoT Data Management**
-    - **Use Case**: Telenet will aim to effectively manage and monetize data from IoT devices on its network
+    - **Use Case**: BelgiCom will aim to effectively manage and monetize data from IoT devices on its network
     - **Implementation**: Collibra's data catalog and lineage features will be used to inventory and track IoT data streams, their sources, and usage
     - **Expected Impact**: This is expected to enable the creation of 5 new IoT-based services within the first year and increase IoT-related revenue by 40%
 
-These use cases demonstrate how Collibra can be leveraged to address a wide range of data management challenges in a telecom environment. By implementing Collibra, Telenet will be positioned to significantly improve its data governance, operational efficiency, and ability to derive value from its vast data assets. The platform's flexibility and comprehensive features will enable Telenet to adapt to the evolving telecom landscape and maintain a competitive edge through data-driven decision making and service delivery.
+These use cases demonstrate how Collibra can be leveraged to address a wide range of data management challenges in a telecom environment. By implementing Collibra, BelgiCom will be positioned to significantly improve its data governance, operational efficiency, and ability to derive value from its vast data assets. The platform's flexibility and comprehensive features will enable BelgiCom to adapt to the evolving telecom landscape and maintain a competitive edge through data-driven decision making and service delivery.

@@ -51,7 +51,7 @@ horizontal: false
             {% assign sorted_projects = categorized_projects | sort: "importance" %}
             <div class="project-list">
               {% for project in sorted_projects %}
-                <div class="project-card">
+                <a href="{{ project.url | relative_url }}" class="project-card">
                   {% if project.img %}
                     <div class="project-image">
                       <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" />
@@ -63,7 +63,7 @@ horizontal: false
                       <p class="project-description">{{ project.description }}</p>
                     {% endif %}
                   </div>
-                </div>
+                </a>
               {% endfor %}
             </div>
           </div>
@@ -75,7 +75,7 @@ horizontal: false
     {% assign sorted_projects = site.projects | sort: "importance" %}
     <div class="project-list">
       {% for project in sorted_projects %}
-        <div class="project-card">
+        <a href="{{ project.url | relative_url }}" class="project-card">
           {% if project.img %}
             <div class="project-image">
               <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" />
@@ -87,28 +87,28 @@ horizontal: false
               <p class="project-description">{{ project.description }}</p>
             {% endif %}
           </div>
-        </div>
+        </a>
       {% endfor %}
     </div>
   {% endif %}
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-    
-    accordionHeaders.forEach(header => {
-      header.addEventListener('click', function() {
-        this.classList.toggle('active');
-        const content = this.nextElementSibling;
-        if (content.style.height) {
-          content.style.height = null;
-        } else {
-          content.style.height = content.scrollHeight + "px";
-        }
-      });
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
+  
+  accordionHeaders.forEach(header => {
+    header.addEventListener('click', function() {
+      this.classList.toggle('active');
+      const content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
     });
   });
+});
 </script>
 
 <style>
@@ -124,7 +124,7 @@ horizontal: false
   }
   
   .accordion-header {
-    background-color: var(--global-bg-color);
+    background-color: var(--global-code-bg-color);
     color: var(--global-text-color);
     cursor: pointer;
     padding: 1rem;
@@ -132,14 +132,16 @@ horizontal: false
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: all 0.3s ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .accordion-header:hover {
-    background-color: var(--global-hover-color);
+  .accordion-header:hover,
+  .accordion-header.active {
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
   }
   
   .accordion-header h2 {
@@ -147,26 +149,36 @@ horizontal: false
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+    transition: color 0.3s ease;
   }
   
   .category-icon {
     margin-right: 0.5rem;
     font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  .accordion-header:hover h2,
+  .accordion-header:hover .category-icon,
+  .accordion-header.active h2,
+  .accordion-header.active .category-icon {
+    color: var(--global-bg-color);
   }
   
   .accordion-icon {
     width: 1.25rem;
     height: 1.25rem;
-    border: 2px solid var(--global-text-color);
+    border: 2px solid currentColor;
     border-radius: 50%;
     position: relative;
+    transition: transform 0.3s ease, border-color 0.3s ease;
   }
   
   .accordion-icon::before,
   .accordion-icon::after {
     content: "";
     position: absolute;
-    background-color: var(--global-text-color);
+    background-color: currentColor;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -180,19 +192,18 @@ horizontal: false
   .accordion-icon::after {
     width: 2px;
     height: 0.75rem;
-    transition: 0.4s;
+    transition: transform 0.3s ease;
   }
   
-  .accordion-header.active .accordion-icon::after {
-    transform: translate(-50%, -50%) rotate(90deg);
-    opacity: 0;
+  .accordion-header.active .accordion-icon {
+    transform: rotate(180deg);
   }
   
   .accordion-content {
     background-color: var(--global-bg-color);
+    max-height: 0;
     overflow: hidden;
-    transition: height 0.2s ease-out;
-    height: 0;
+    transition: max-height 0.5s ease-out;
   }
   
   .project-list {
@@ -205,6 +216,13 @@ horizontal: false
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--global-divider-color);
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card:hover {
+    background-color: var(--global-code-bg-color);
   }
   
   .project-card:last-child {
@@ -232,6 +250,7 @@ horizontal: false
   .project-title {
     margin: 0 0 0.5rem 0;
     font-size: 1.1rem;
+    color: var(--global-theme-color);
   }
   
   .project-description {
