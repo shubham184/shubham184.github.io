@@ -12,6 +12,7 @@ display_categories:
     Data Architecture & Engineering,
     Analytics & Data Warehousing,
     Messaging & Queuing Systems,
+    Tools & Technology,
   ]
 horizontal: false
 ---
