@@ -5,6 +5,7 @@ permalink: /projects/
 description: A growing collection of my data projects.
 nav: true
 nav_order: 3
+mermaid: true
 display_categories:
  [
 Data Integration,
