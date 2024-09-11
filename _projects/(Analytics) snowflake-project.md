@@ -124,3 +124,40 @@ document.addEventListener("DOMContentLoaded", function() {
     mermaid.render("mermaid-diagram", diagram, insertSvg);
 });
 </script>
+
+---
+
+# Summary
+
+---
+
+### **Situation:**
+At my previous company, we were facing a major challenge in managing and analyzing rapidly growing volumes of data from various sources, including e-commerce transactions, customer interactions, and IoT devices. Our existing data infrastructure was not scaling well, and query times were becoming a bottleneck for our business intelligence and analytics needs. The leadership wanted a solution that would not only improve performance but also be flexible and scalable for future growth.
+
+### **Task:**
+I was fortunate to lead the data engineering efforts to implement a new data warehousing solution using Snowflake. My primary task was to design the architecture, build the ETL/ELT pipelines, and optimize the performance of the system. I was also responsible for ensuring that our BI tools, including Tableau and Power BI, integrated smoothly with the new data warehouse, and that we maintained robust security across the platform.
+
+### **Action:**
+To address these challenges, I designed a Snowflake-based architecture that leveraged its cloud-native capabilities for independent scaling of compute and storage resources. After analyzing our data usage patterns, I confidently structured our data into layers: raw, transformed, and curated, to enable faster access and better organization.
+
+Building the ETL/ELT pipelines was one of the most critical parts of this project. I developed a continuous ELT process using Snowpipe and Snowflake tasks to ensure near real-time data updates, reducing data latency from 24 hours to just 15 minutes. This was particularly important for our sales and marketing teams who needed timely insights to make data-driven decisions.
+
+While it was a challenge, I was able to optimize query performance by implementing clustering keys and materialized views. For example, some of our complex analytical queries initially ran slowly due to large datasets and multiple joins. By carefully tuning the clustering keys and using Snowflake's search optimization services, we reduced query execution times by up to 70% in certain cases.
+
+In terms of security, I worked closely with our compliance team to implement role-based access control (RBAC) and column-level security. This ensured that only authorized users had access to sensitive data, helping us meet regulatory requirements such as GDPR.
+
+Another important task was training and onboarding the data team and business users. I developed comprehensive documentation and ran hands-on workshops to ensure that the new system was fully understood and effectively utilized by everyone.
+
+### **Result:**
+The Snowflake data warehouse significantly transformed our analytics capabilities. We achieved a **40% reduction in average query times**, with some complex queries running **up to 70% faster** after optimization. This improvement allowed our business users to run more advanced reports without delays, leading to faster decision-making across the company.
+
+One of the things I’m particularly proud of is the improvement in data freshness. By implementing the continuous ELT pipeline, we reduced data latency from **24 hours to just 15 minutes**, enabling real-time analytics for critical data sources. This allowed teams to make more timely decisions, particularly in marketing and operations.
+
+Our scalability also improved dramatically. Within six months, we expanded our data storage from **2TB to 20TB** without experiencing any performance degradation, thanks to Snowflake’s elastic architecture. This scalability ensured that the platform could support future growth without any concerns about hitting capacity limits.
+
+From a cost perspective, we realized a **30% reduction in data warehousing costs** due to Snowflake's pay-per-use pricing model and optimized resource management, which adjusted to varying workloads automatically.
+
+Finally, we saw a **50% increase in BI tool active users** as performance improvements and easier data access encouraged more teams to adopt and rely on data for their daily operations.
+
+---
+

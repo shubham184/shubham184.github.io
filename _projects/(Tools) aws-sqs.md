@@ -7,8 +7,6 @@ importance: 5
 category: Tools & Technology
 ---
 
-Certainly! Here's an explanation of Amazon SQS in a similar style to the Kafka explanation you provided:
-
 ## What is Amazon SQS?
 
 Imagine Amazon SQS (Simple Queue Service) as a highly efficient digital post office for computer messages. Here's how it works:

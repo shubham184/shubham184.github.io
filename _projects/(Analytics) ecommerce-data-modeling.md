@@ -249,3 +249,33 @@ document.addEventListener("DOMContentLoaded", function() {
     mermaid.render("mermaid-diagram", diagram, insertSvg);
 });
 </script>
+
+# Summary
+
+---
+
+### **Situation:**
+At my previous company, I was tasked with leading the redesign of the data model for a rapidly growing e-commerce platform. The platform was struggling with several key issues: data redundancy, slow query performance, and limited ability to generate accurate customer insights. These issues were becoming a roadblock as the business scaled, and they needed a more efficient and scalable data model to support continued growth and deliver more sophisticated customer segmentation.
+
+### **Task:**
+I was fortunate to lead the project as the data engineer responsible for analyzing the existing data model, identifying areas for improvement, and working closely with the business stakeholders to ensure that the new model aligned with both technical and business requirements. My role also included implementing the new model, migrating the existing data without disrupting operations, and optimizing queries to support better customer segmentation.
+
+### **Action:**
+The first step was analyzing the existing data model, which had significant data redundancy due to a lack of normalization. After evaluating the structure, I confidently proposed a new model that followed Third Normal Form (3NF) principles, which reduced duplication and improved data integrity. We also implemented a star schema to enhance query performance for our analytics needs. 
+
+One challenge we faced was migrating the data without downtime. To address this, I implemented a staged migration process, where we used temporary tables and orchestrated data copy operations during off-peak hours. This allowed us to seamlessly switch to the new model without affecting the platform’s daily operations.
+
+While it was a challenge, I was able to optimize the query performance further by implementing an indexing strategy that included both clustered and non-clustered indexes on frequently queried columns. For example, we indexed customer-related columns that were often used for segmentation, which significantly sped up these queries. Additionally, I collaborated closely with the analytics team to implement Slowly Changing Dimensions (SCD) Type 2 for our customer and product tables, ensuring historical data accuracy.
+
+Another challenge I faced was gaining stakeholder buy-in for a complete redesign. Some were hesitant due to the complexity and potential risks of the project. I worked closely with them, creating a detailed impact analysis that projected improvements in performance and data quality. By presenting this analysis and showing the potential long-term benefits, I was able to secure their support.
+
+### **Result:**
+The new data model resulted in a **40% reduction in data redundancy**, which not only reduced storage costs but also improved overall data consistency. This was a major win for the business as it provided a more scalable foundation for future growth.
+
+In terms of customer insights, the redesign led to a **25% improvement in customer segmentation accuracy**, allowing the marketing team to launch more targeted campaigns based on refined customer data. This was a direct result of implementing the new model and optimizing the queries used for segmentation.
+
+We also saw **60% faster query performance** for common analytical queries, particularly those related to order and customer data. This improvement greatly enhanced the responsiveness of the platform and allowed the team to run more complex queries without long wait times.
+
+Finally, I’m particularly proud that the data model we implemented increased the platform’s scalability by **30%**, positioning the company to handle continued growth without the risk of performance degradation.
+
+---
