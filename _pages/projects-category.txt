@@ -1,0 +1,6 @@
+Data Integration,
+Data Governance & Metadata Management,
+Data Architecture & Engineering,
+Analytics & Data Warehousing,
+Messaging & Queuing Systems,
+Tools & Technology,

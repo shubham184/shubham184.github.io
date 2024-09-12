@@ -6,12 +6,12 @@ img: assets/img/global-supply-chain.jpg
 mermaid:
   enabled: true
 importance: 1
-category: Data Integration
+category: Case-Studies Impacting Telecom Industry
 ---
 
 ## Situation
 
-GlobalLogistics, a leading international supply chain and logistics company, was facing significant challenges in adapting to the upcoming European Sustainability Reporting Standards (ESRS) set to take effect in 2025. The company's existing data infrastructure was ill-equipped to handle the comprehensive reporting requirements across Environmental, Social, and Governance (ESG) dimensions. Specific issues included:
+GlobalLogistics, (Name Changed) a leading international supply chain and logistics company, was facing significant challenges in adapting to the upcoming European Sustainability Reporting Standards (ESRS) set to take effect in 2025. The company's existing data infrastructure was ill-equipped to handle the comprehensive reporting requirements across Environmental, Social, and Governance (ESG) dimensions. Specific issues included:
 
 - **Data Silos**: Critical ESG-related information was scattered across various departments and regional offices, making consolidated reporting nearly impossible.
 

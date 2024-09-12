@@ -8,12 +8,8 @@ nav_order: 3
 mermaid: true
 display_categories:
  [
-Data Integration,
-Data Governance & Metadata Management,
-Data Architecture & Engineering,
-Analytics & Data Warehousing,
-Messaging & Queuing Systems,
-Tools & Technology,
+Case-Studies Impacting Telecom Industry
+
  ]
 horizontal: false
 ---

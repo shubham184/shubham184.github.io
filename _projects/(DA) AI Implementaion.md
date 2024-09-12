@@ -187,16 +187,18 @@ The implementation of this enhanced data architecture yielded significant improv
 
 This project demonstrates how a well-designed data architecture can unlock the full potential of AI and automation technologies in a global logistics context. By focusing on data integration, quality, and accessibility, we transformed our data infrastructure into a powerful enabler for AI innovation, directly contributing to GlobalLogistics' operational efficiency and competitive advantage in the AI-driven future of logistics.
 
-
 ---
 
 ### **Situation:**
+
 At GlobalLogistics, a leading multinational supply chain company, we had made significant investments in AI technologies, including generative AI for optimizing routes and knowledge graphs for enhancing supply chain visibility. However, we struggled to fully realize the potential of these technologies due to several challenges: siloed data, inconsistent data formats, limited accessibility, and scalability issues. These limitations hindered AI integration across the organization.
 
 ### **Task:**
+
 As the Enterprise Data Architect, I was fortunate to be tasked with solving these problems by designing a scalable, integrated data architecture. My goals were to unify the organization’s global data, implement data governance practices to ensure quality and consistency, create a flexible integration layer for AI use cases, and establish a data catalog to improve accessibility.
 
 ### **Action:**
+
 To tackle the challenges, I took a step-by-step approach:
 
 1. **Cloud-based Data Lake Implementation:**
@@ -235,6 +237,7 @@ To tackle the challenges, I took a step-by-step approach:
    _Example: The "Last Mile Delivery" data product team ensured that clean, reliable data for final delivery processes was always available. This drastically reduced the time it took for AI models to access necessary data._
 
 ### **Result:**
+
 These actions had a significant impact on the company’s operations:
 
 1. **Improved AI Model Performance:**

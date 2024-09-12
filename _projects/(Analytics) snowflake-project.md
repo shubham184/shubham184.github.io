@@ -4,7 +4,7 @@ title: Snowflake Data Warehousing Project - Optimizing Analytics for Scale
 description: Implemented a Snowflake data warehouse solution, achieving a 40% reduction in query times and enabling real-time analytics across diverse data sources for a rapidly growing e-commerce company.
 img: assets/img/snowflake-data-warehousing-teaser.jpg
 importance: 1
-category: Analytics & Data Warehousing
+category: Case-Study
 ---
 
 ## Project Overview
@@ -23,7 +23,7 @@ To address these challenges, we implemented a comprehensive data warehousing sol
 
 As the lead data engineer on this project, my primary responsibilities included:
 
-1. Data Warehouse Design: I architected the overall structure of our Snowflake data warehouse, including the design of database schemas, tables, and views to optimize for our specific analytical needs.
+1. Data Warehouse Design: I architected the overall structure of our **Snowflake data warehouse**, including the design of **database schemas**, tables, and views to optimize for our specific analytical needs.
 2. ETL/ELT Pipeline Development: I developed robust ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) pipelines to ingest data from various sources into Snowflake, ensuring data quality and consistency throughout the process.
 3. Performance Optimization: I implemented performance tuning strategies, including proper clustering keys, materialized views, and query optimization techniques to enhance query performance and reduce costs.
 4. Security Implementation: I designed and implemented a comprehensive security model, including role-based access control (RBAC) and column-level security to ensure data protection and compliance with regulatory requirements.
@@ -116,11 +116,11 @@ document.addEventListener("DOMContentLoaded", function() {
             H --> E
             H --> F
     `;
-    
+
     var insertSvg = function(svgCode, bindFunctions) {
         document.getElementById("architecture-diagram").innerHTML = svgCode;
     };
-    
+
     mermaid.render("mermaid-diagram", diagram, insertSvg);
 });
 </script>
@@ -132,12 +132,15 @@ document.addEventListener("DOMContentLoaded", function() {
 ---
 
 ### **Situation:**
+
 At my previous company, we were facing a major challenge in managing and analyzing rapidly growing volumes of data from various sources, including e-commerce transactions, customer interactions, and IoT devices. Our existing data infrastructure was not scaling well, and query times were becoming a bottleneck for our business intelligence and analytics needs. The leadership wanted a solution that would not only improve performance but also be flexible and scalable for future growth.
 
 ### **Task:**
+
 I was fortunate to lead the data engineering efforts to implement a new data warehousing solution using Snowflake. My primary task was to design the architecture, build the ETL/ELT pipelines, and optimize the performance of the system. I was also responsible for ensuring that our BI tools, including Tableau and Power BI, integrated smoothly with the new data warehouse, and that we maintained robust security across the platform.
 
 ### **Action:**
+
 To address these challenges, I designed a Snowflake-based architecture that leveraged its cloud-native capabilities for independent scaling of compute and storage resources. After analyzing our data usage patterns, I confidently structured our data into layers: raw, transformed, and curated, to enable faster access and better organization.
 
 Building the ETL/ELT pipelines was one of the most critical parts of this project. I developed a continuous ELT process using Snowpipe and Snowflake tasks to ensure near real-time data updates, reducing data latency from 24 hours to just 15 minutes. This was particularly important for our sales and marketing teams who needed timely insights to make data-driven decisions.
@@ -149,6 +152,7 @@ In terms of security, I worked closely with our compliance team to implement rol
 Another important task was training and onboarding the data team and business users. I developed comprehensive documentation and ran hands-on workshops to ensure that the new system was fully understood and effectively utilized by everyone.
 
 ### **Result:**
+
 The Snowflake data warehouse significantly transformed our analytics capabilities. We achieved a **40% reduction in average query times**, with some complex queries running **up to 70% faster** after optimization. This improvement allowed our business users to run more advanced reports without delays, leading to faster decision-making across the company.
 
 One of the things I’m particularly proud of is the improvement in data freshness. By implementing the continuous ELT pipeline, we reduced data latency from **24 hours to just 15 minutes**, enabling real-time analytics for critical data sources. This allowed teams to make more timely decisions, particularly in marketing and operations.
@@ -160,4 +164,3 @@ From a cost perspective, we realized a **30% reduction in data warehousing costs
 Finally, we saw a **50% increase in BI tool active users** as performance improvements and easier data access encouraged more teams to adopt and rely on data for their daily operations.
 
 ---
-

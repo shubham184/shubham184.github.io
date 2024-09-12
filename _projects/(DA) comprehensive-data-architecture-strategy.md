@@ -133,16 +133,18 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-
 ---
 
 ### **Situation:**
+
 Our client, a leading global supply chain and logistics company, faced significant challenges in managing their data across international operations. Critical data was siloed across different systems and regions, making it difficult to access, standardize, and leverage for decision-making. They needed a comprehensive data architecture that could unify their data, ensure consistency, and provide real-time insights to drive more informed decision-making across their global operations.
 
 ### **Task:**
+
 I was fortunate to be the lead data engineer on this project, tasked with designing and implementing a robust data architecture that could address the client’s challenges. My role involved assessing their current infrastructure, designing a scalable architecture, developing ETL processes, building a centralized data warehouse, and ensuring real-time data integration for effective business insights.
 
 ### **Action:**
+
 To address the client’s challenges, I took a systematic approach:
 
 1. **Infrastructure Assessment and Architecture Design:**
@@ -166,11 +168,11 @@ To address the client’s challenges, I took a systematic approach:
    _Example: I enhanced data accuracy by 25% by standardizing data formats and implementing governance checks, ensuring that the client’s logistics data was clean and reliable._
 
 ### **Result:**
+
 The comprehensive data architecture we implemented significantly transformed the client’s data management and analytics capabilities:
 
 1. **Improved Data Accessibility:**
    Data accessibility improved by **35%**, allowing teams across different regions and departments to access unified data and make faster, more informed decisions.
-   
 2. **Enhanced Reporting Efficiency:**
    Report generation times were reduced by **60%** due to the automated ETL processes and centralized data platform. This allowed the business to generate insights more frequently and respond quickly to operational changes.
 
